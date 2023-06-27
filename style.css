@@ -294,8 +294,8 @@ body{
 
 .work-list{
     display: grid;
-    /* justify-content: center; */
-    grid-template-columns: repeat(auto-fit, minmax(100px, 380px));
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 370px));
     grid-gap: 80px;
     margin-top: 40px;
 }
