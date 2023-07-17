@@ -14,12 +14,16 @@
         <header class="header" id="header">
             <a href="#" class="logo">myPortfo<b class="red">lio.</b></a>
 
+            <div class="bx bx-menu" id="menu-icon"></div>
+
             <nav class="navbar">
                 <a href="#header" class="active">Home</a>
                 <a href="#about" >About</a>
                 <a href="#mywork" >My Work</a>
                 <a href="#contact" >Contact</a>
-            </navv>
+
+                <span class="active-nav"></span>
+            </nav>
         </header>
 
         <!-- -------------home content--------------- -->
@@ -76,7 +80,7 @@
     <!-- -------------myWork-------------- -->
 
     <section id="mywork">
-        <div class="container">
+        <div class="container mywork">
             <h1 class="sub-title">My Work</h1>
             <div class="work-list">
                 <div class="work">
@@ -103,14 +107,14 @@
                     </div>
                 </div>
             </div>
-            <a href="" class="btn">Go To Top</a>
+            <a href="#header" class="btn">Go To Top</a>
         </div>
     </section>
 
     <!-- ----------contact------------- -->
 
     <section id="contact">
-        <div class="container">
+        <div class="container contact">
             <div class="contact-row">
                 <div class="contact-left">
                     <h1 class="sub-title">Contact Me</h1>
@@ -121,15 +125,16 @@
                         <a target="_blank" href="https://github.com/manojr05"><i class='bx bxl-github' ></i></a>
                         <a target="_blank" href="https://instagram.com/_.mxnoj?igshid=MzRlODBiNWFlZA=="><i class='bx bxl-instagram'></i></a>
                     </div>
-                    <a href="./Manoj R (Resume).pdf" download class="btn2">Download CV</a>
+                    <a href="./Manoj R (Resume).pdf" download class="btn2 download-cv">Download CV</a>
                 </div>
                 <div class="contact-right">
-                    <form action="">
+                    <form name="submit-to-google-sheet">
                         <input type="text" name="Name" placeholder="Your Name" required>
                         <input type="email" name="Email" placeholder="Your Email" required>
                         <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
                         <button type="submit" class="btn2">Submit</button>
                     </form>
+                    <span id="msg"></span>
                 </div>
             </div>
         </div>
@@ -141,28 +146,3 @@
     <script src="./script.js"></script>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- <div class="button-box">
-    <a href="">Hire Me</a>
-    <a href="">Let's Talk</a>
-</div> -->
